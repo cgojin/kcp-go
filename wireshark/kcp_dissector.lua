@@ -73,6 +73,8 @@ function get_cmd_name(cmd_val)
         return "ASK"
     elseif cmd_val == 84 then
         return "TELL"
+    else
+        return "NULL"
     end
 end
 
